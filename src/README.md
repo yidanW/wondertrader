@@ -1,17 +1,148 @@
 # wt > src
 这是wondertrader的C++底层源码
 
+## 快速开始
+
+### 编译完成后运行
+
+1. **设置动态库路径**：
+   ```bash
+   export LD_LIBRARY_PATH=/home/mydeps/lib:$LD_LIBRARY_PATH
+   ```
+
+2. **运行程序**：
+   ```bash
+   cd build_debug/build_x64/Debug/bin/WtRunner
+   ./WtRunner -c config.yaml -l logcfg.yaml
+   ```
+
+3. **或使用快速启动脚本**：
+   ```bash
+   ./start_wt.sh          # 运行实盘程序
+   ./start_wt.sh bt       # 运行回测程序
+   ./start_wt.sh uft      # 运行超高频程序
+   ```
+
+详细运行说明请参考 [RUN.md](RUN.md)
+
 ## 开发环境
 + Windows	
 	> `Visual Studio 2017` + `Windows 10`
 + Linux	
 	> `Gcc v8.4.0` + `cmake 3.17.5`
+	
+	### 使用 apt 安装开发环境
+	
+	#### 安装 GCC 8.4.0
+	```bash
+	# 添加 GCC 8 的软件源（Ubuntu 18.04/20.04）
+	sudo apt update
+	sudo apt install -y gcc-8 g++-8
+	
+	# 设置 GCC 8 为默认版本（可选）
+	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 800
+	sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 800
+	
+	# 验证版本
+	gcc --version
+	g++ --version
+	```
+	
+	#### 安装 cmake 3.17.5
+	```bash
+	# 方法1: 从 Kitware 官方仓库安装（推荐）
+	sudo apt remove --purge --auto-remove cmake
+	wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | gpg --dearmor - | sudo tee /etc/apt/trusted.gpg.d/kitware.gpg >/dev/null
+	sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ $(lsb_release -cs) main'
+	sudo apt update
+	sudo apt install -y cmake=3.17.5-0kitware1 cmake-data=3.17.5-0kitware1
+	
+	# 方法2: 如果方法1不可用，可以从源码编译
+	# wget https://github.com/Kitware/CMake/releases/download/v3.17.5/cmake-3.17.5.tar.gz
+	# tar -xzf cmake-3.17.5.tar.gz
+	# cd cmake-3.17.5
+	# ./bootstrap && make && sudo make install
+	
+	# 验证版本
+	cmake --version
+	```
 
 ## 依赖库
 + [boost 1.72](https://www.boost.org/)
-+ [rapidjson 1.0.2](https://github.com/Tencent/rapidjson)
++ [rapidjson 1.1.0](https://github.com/Tencent/rapidjson) (代码需要 GetObject/GetArray API，1.0.2 不支持)
 + [spdlog 1.9.2](https://github.com/gabime/spdlog)
 + [nanomsg 1.1.5](https://github.com/nanomsg/nanomsg)
+
+### 使用 apt 安装依赖库
+
+**快速安装（推荐）**：使用提供的安装脚本一键安装所有依赖：
+```bash
+sudo ./install_deps.sh
+```
+
+**手动安装**：如果需要自定义安装路径或版本，可以按照以下步骤手动安装：
+
+#### 安装 Boost 1.72
+```bash
+# 注意：Ubuntu/Debian 默认仓库可能没有 Boost 1.72，需要从源码编译安装
+# 项目期望 Boost 安装在 /home/mydeps 目录
+
+# 1. 创建依赖目录
+sudo mkdir -p /home/mydeps/{include,lib}
+
+# 2. 下载并编译 Boost 1.72
+cd /tmp
+wget https://archives.boost.io/release/1.72.0/source/boost_1_72_0.tar.gz
+tar -xzf boost_1_72_0.tar.gz
+cd boost_1_72_0
+
+# 3. 配置并编译（只编译需要的组件）
+./bootstrap.sh --prefix=/home/mydeps
+./b2 --prefix=/home/mydeps \
+     --with-filesystem \
+     --with-thread \
+     --with-system \
+     --with-date_time \
+     --with-regex \
+     --with-serialization \
+     --with-iostreams \
+     --with-chrono \
+     --with-atomic \
+     -j$(nproc) \
+     install
+
+# 4. 验证安装
+ls -la /home/mydeps/include/boost/smart_ptr/detail/spinlock.hpp
+ls -la /home/mydeps/lib/libboost_*
+
+# 5. 如果使用非标准路径，可以设置环境变量或修改 CMakeLists.txt
+# export MyDeps="/your/custom/path"
+```
+
+#### 安装其他依赖库
+```bash
+# rapidjson（仅头文件库，需要移动头文件到正确位置）
+# 注意：代码使用了 GetObject()/GetArray()，需要 1.1.0+ 版本
+cd /home/mydeps/include
+git clone --branch v1.1.0 --depth 1 https://github.com/Tencent/rapidjson.git rapidjson_temp
+mv rapidjson_temp/include/rapidjson rapidjson
+rm -rf rapidjson_temp
+
+# spdlog（仅头文件库，需要包含 fmt 子模块）
+cd /home/mydeps/include
+git clone --branch v1.9.2 --recursive --depth 1 https://github.com/gabime/spdlog.git spdlog_temp
+mv spdlog_temp/include/spdlog spdlog
+rm -rf spdlog_temp
+
+# nanomsg（需要编译）
+cd /tmp
+git clone --branch 1.1.5 https://github.com/nanomsg/nanomsg.git
+cd nanomsg
+mkdir build && cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=/home/mydeps
+make -j$(nproc)
+sudo make install
+```
 
 ## 解决方案结构
 + ***Backtest***

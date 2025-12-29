@@ -1,9 +1,25 @@
 parsers:
--   active: true
+# CTP 期货行情解析器（已禁用）
+-   active: false
     broker: '9999'
     code: ''
     front: tcp://180.168.146.187:10211
-    id: parser
+    id: parser_ctp
     module: ParserCTP
     pass: yoursimnowaccount
     user: yoursimnowpassword
+
+# XTP 股票行情解析器
+-   active: true
+    id: parser_xtp
+    module: ParserXTP
+    host: 119.3.103.38          # 行情服务器地址
+    port: 6002                   # 行情服务器端口
+    user: '453191003475'         # XTP测试账户
+    pass: 'wiFeNsz3'             # 登录密码
+    protocol: 1                  # 协议类型：1=TCP, 2=UDP
+    clientid: 1                  # 客户端ID
+    hbinterval: 30              # 心跳间隔（秒）
+    buffsize: 67108864           # UDP缓冲区大小（字节），TCP模式可忽略
+    flowdir: XTPMDFlow           # 数据流存储目录
+    local_ip: ''                 # 本地IP（可选，留空自动获取）
