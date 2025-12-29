@@ -38,7 +38,7 @@
 ### 推荐阅读顺序
 
 1. ✅ 阅读快速开始指南
-2. ✅ 阅读策略示例代码 (`src/WtCtaStraFact/WtStraDualThrust.cpp`)
+2. ✅ 阅读策略示例代码 ([`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp))
 3. ✅ 按照学习指南逐步深入
 4. ✅ 使用代码参考快速查找
 

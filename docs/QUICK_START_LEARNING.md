@@ -12,7 +12,7 @@
 
 ### 第一步：阅读策略示例代码（今天就开始！）
 
-**文件**: `src/WtCtaStraFact/WtStraDualThrust.cpp`
+**文件**: [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp)
 
 **为什么从这里开始？**
 - 这是最完整的策略示例
@@ -27,7 +27,7 @@
 
 ### 第二步：理解策略接口（明天）
 
-**文件**: `src/Includes/ICtaStraCtx.h`
+**文件**: [`src/Includes/ICtaStraCtx.h`](../src/Includes/ICtaStraCtx.h)
 
 **这是策略可用的所有接口！**
 
@@ -38,7 +38,7 @@
 
 ### 第三步：理解引擎如何工作（本周）
 
-**文件**: `src/WtCore/WtCtaEngine.cpp`
+**文件**: [`src/WtCore/WtCtaEngine.cpp`](../src/WtCore/WtCtaEngine.cpp)
 
 **理解**:
 - 引擎如何接收行情
@@ -50,7 +50,7 @@
 ## 📚 完整学习文档
 
 ### 1. 学习指南（详细版）
-📄 **文件**: `LEARNING_GUIDE.md`
+📄 **文件**: [LEARNING_GUIDE.md](./LEARNING_GUIDE.md)
 
 **包含**:
 - 系统架构详解
@@ -60,7 +60,7 @@
 - 常见问题
 
 ### 2. 代码参考（快速查找）
-📄 **文件**: `CODE_REFERENCE.md`
+📄 **文件**: [CODE_REFERENCE.md](./CODE_REFERENCE.md)
 
 **包含**:
 - 所有关键代码文件位置
@@ -83,9 +83,9 @@
 4. ✅ 实现一个简单的均线策略
 
 **关键文件**:
-- `src/WtCtaStraFact/WtStraDualThrust.cpp` ⭐⭐⭐
-- `src/Includes/ICtaStraCtx.h` ⭐⭐⭐
-- `src/Includes/CtaStrategyDefs.h` ⭐⭐
+- [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp) ⭐⭐⭐
+- [`src/Includes/ICtaStraCtx.h`](../src/Includes/ICtaStraCtx.h) ⭐⭐⭐
+- [`src/Includes/CtaStrategyDefs.h`](../src/Includes/CtaStrategyDefs.h) ⭐⭐
 
 ### 第2-3周：理解引擎核心
 
@@ -98,9 +98,9 @@
 4. ✅ 理解数据流
 
 **关键文件**:
-- `src/WtCore/WtCtaEngine.cpp` ⭐⭐⭐
-- `src/WtCore/WtEngine.cpp` ⭐⭐⭐
-- `src/WtCore/CtaStraContext.cpp` ⭐⭐
+- [`src/WtCore/WtCtaEngine.cpp`](../src/WtCore/WtCtaEngine.cpp) ⭐⭐⭐
+- [`src/WtCore/WtEngine.cpp`](../src/WtCore/WtEngine.cpp) ⭐⭐⭐
+- [`src/WtCore/CtaStraContext.cpp`](../src/WtCore/CtaStraContext.cpp) ⭐⭐
 
 ### 第4周：理解数据流
 
@@ -113,9 +113,9 @@
 4. ✅ 跟踪一次完整的交易流程
 
 **关键文件**:
-- `src/WtCore/ParserAdapter.cpp` ⭐⭐
-- `src/WtCore/TraderAdapter.cpp` ⭐⭐
-- `src/QuoteFactory/main.cpp` ⭐
+- [`src/WtCore/ParserAdapter.cpp`](../src/WtCore/ParserAdapter.cpp) ⭐⭐
+- [`src/WtCore/TraderAdapter.cpp`](../src/WtCore/TraderAdapter.cpp) ⭐⭐
+- [`src/QuoteFactory/main.cpp`](../src/QuoteFactory/main.cpp) ⭐
 
 ---
 
@@ -217,9 +217,9 @@ void on_schedule(ICtaStraCtx* ctx, uint32_t curDate, uint32_t curTime) { }
 
 ### 今天（1小时）
 
-1. ✅ 阅读 `LEARNING_GUIDE.md` 的"阶段2: 理解策略开发"
-2. ✅ 阅读 `src/WtCtaStraFact/WtStraDualThrust.cpp`
-3. ✅ 阅读 `src/Includes/ICtaStraCtx.h`
+1. ✅ 阅读 [LEARNING_GUIDE.md](./LEARNING_GUIDE.md) 的"阶段2: 理解策略开发"
+2. ✅ 阅读 [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp)
+3. ✅ 阅读 [`src/Includes/ICtaStraCtx.h`](../src/Includes/ICtaStraCtx.h)
 
 ### 本周（每天1-2小时）
 
@@ -266,9 +266,9 @@ void on_schedule(ICtaStraCtx* ctx, uint32_t curDate, uint32_t curTime) { }
 
 ### 查看文档
 
-1. **学习指南**: `LEARNING_GUIDE.md` - 完整的学习路径
-2. **代码参考**: `CODE_REFERENCE.md` - 快速查找代码位置
-3. **项目文档**: `README.md` - 项目说明
+1. **学习指南**: [LEARNING_GUIDE.md](./LEARNING_GUIDE.md) - 完整的学习路径
+2. **代码参考**: [CODE_REFERENCE.md](./CODE_REFERENCE.md) - 快速查找代码位置
+3. **项目文档**: [README.md](./README.md) - 项目说明
 
 ### 调试技巧
 
@@ -278,13 +278,13 @@ void on_schedule(ICtaStraCtx* ctx, uint32_t curDate, uint32_t curTime) { }
 
 ### 常见问题
 
-查看 `LEARNING_GUIDE.md` 的"常见问题"章节
+查看 [LEARNING_GUIDE.md](./LEARNING_GUIDE.md) 的"常见问题"章节
 
 ---
 
 ## ✨ 开始你的量化之旅！
 
-**第一步**: 打开 `src/WtCtaStraFact/WtStraDualThrust.cpp`，开始阅读！
+**第一步**: 打开 [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp)，开始阅读！
 
 **记住**: 
 - 💪 多动手，少空想

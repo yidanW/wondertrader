@@ -1,0 +1,1412 @@
+[
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/lmdb/mdb.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/lmdb/mdb.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/lmdb/mdb.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/lmdb/mdb.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/lmdb/midl.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/lmdb/midl.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/lmdb/midl.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/lmdb/midl.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/binary.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/binary.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/binary.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/binary.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/convert.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/convert.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/convert.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/convert.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/depthguard.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/depthguard.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/depthguard.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/depthguard.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/directives.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/directives.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/directives.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/directives.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/emit.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/emit.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/emit.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/emit.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/emitfromevents.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/emitfromevents.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/emitfromevents.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/emitfromevents.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/emitter.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/emitter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/emitter.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/emitter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/emitterstate.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/emitterstate.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/emitterstate.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/emitterstate.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/emitterutils.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/emitterutils.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/emitterutils.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/emitterutils.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/exceptions.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/exceptions.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/exceptions.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/exceptions.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/exp.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/exp.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/exp.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/exp.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/memory.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/memory.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/memory.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/memory.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/node.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/node.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/node.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/node.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/node_data.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/node_data.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/node_data.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/node_data.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/nodebuilder.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/nodebuilder.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/nodebuilder.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/nodebuilder.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/nodeevents.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/nodeevents.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/nodeevents.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/nodeevents.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/null.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/null.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/null.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/null.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/ostream_wrapper.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/ostream_wrapper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/ostream_wrapper.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/ostream_wrapper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/parse.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/parse.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/parse.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/parse.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/parser.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/parser.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/parser.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/parser.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/regex_yaml.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/regex_yaml.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/regex_yaml.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/regex_yaml.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/scanner.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/scanner.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/scanner.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/scanner.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/scanscalar.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/scanscalar.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/scanscalar.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/scanscalar.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/scantag.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/scantag.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/scantag.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/scantag.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/scantoken.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/scantoken.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/scantoken.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/scantoken.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/simplekey.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/simplekey.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/simplekey.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/simplekey.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/singledocparser.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/singledocparser.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/singledocparser.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/singledocparser.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/stream.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/stream.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/stream.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/stream.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/yamlcpp/tag.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/tag.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/yamlcpp/tag.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/yamlcpp/tag.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/cover.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/cover.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/cover.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/cover.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/debug.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/debug.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/debug.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/debug.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/divsufsort.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/divsufsort.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/divsufsort.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/divsufsort.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/entropy_common.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/entropy_common.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/entropy_common.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/entropy_common.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/error_private.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/error_private.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/error_private.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/error_private.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/fastcover.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/fastcover.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/fastcover.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/fastcover.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/fse_compress.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/fse_compress.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/fse_compress.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/fse_compress.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/fse_decompress.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/fse_decompress.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/fse_decompress.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/fse_decompress.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/hist.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/hist.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/hist.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/hist.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/huf_compress.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/huf_compress.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/huf_compress.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/huf_compress.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/huf_decompress.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/huf_decompress.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/huf_decompress.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/huf_decompress.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/pool.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/pool.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/pool.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/pool.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/threading.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/threading.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/threading.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/threading.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/xxhash.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/xxhash.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/xxhash.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/xxhash.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zbuff_common.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zbuff_common.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zbuff_common.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zbuff_common.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zbuff_compress.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zbuff_compress.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zbuff_compress.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zbuff_compress.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zbuff_decompress.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zbuff_decompress.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zbuff_decompress.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zbuff_decompress.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zdict.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zdict.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zdict.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zdict.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_common.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_common.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_common.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_common.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_compress.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_compress.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_compress.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_compress.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_compress_literals.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_compress_literals.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_compress_literals.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_compress_literals.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_compress_sequences.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_compress_sequences.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_compress_sequences.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_compress_sequences.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_ddict.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_ddict.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_ddict.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_ddict.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_decompress.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_decompress.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_decompress.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_decompress.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_decompress_block.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_decompress_block.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_decompress_block.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_decompress_block.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_double_fast.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_double_fast.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_double_fast.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_double_fast.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_fast.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_fast.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_fast.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_fast.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_lazy.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_lazy.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_lazy.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_lazy.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_ldm.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_ldm.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_ldm.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_ldm.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstd_opt.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_opt.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstd_opt.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstd_opt.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/cc  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp  -fPIC -g -o CMakeFiles/WTSUtils.dir/zstdlib/zstdmt_compress.c.o -c /data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstdmt_compress.c",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/zstdlib/zstdmt_compress.c",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/zstdlib/zstdmt_compress.c.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/WTSCfgLoader.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/WTSCfgLoader.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/WTSCfgLoader.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/WTSCfgLoader.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSUtils",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSUtils/./yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSUtils.dir/StackTracer/StackTracer.cpp.o -c /data/yidan.wang/wondertrader/src/WTSUtils/StackTracer/StackTracer.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSUtils/StackTracer/StackTracer.cpp",
+  "output": "WTSUtils/CMakeFiles/WTSUtils.dir/StackTracer/StackTracer.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSTools",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSTools/../WTSUtils/yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSTools.dir/CsvHelper.cpp.o -c /data/yidan.wang/wondertrader/src/WTSTools/CsvHelper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSTools/CsvHelper.cpp",
+  "output": "WTSTools/CMakeFiles/WTSTools.dir/CsvHelper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSTools",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSTools/../WTSUtils/yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSTools.dir/WTSBaseDataMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WTSTools/WTSBaseDataMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSTools/WTSBaseDataMgr.cpp",
+  "output": "WTSTools/CMakeFiles/WTSTools.dir/WTSBaseDataMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSTools",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSTools/../WTSUtils/yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSTools.dir/WTSDataFactory.cpp.o -c /data/yidan.wang/wondertrader/src/WTSTools/WTSDataFactory.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSTools/WTSDataFactory.cpp",
+  "output": "WTSTools/CMakeFiles/WTSTools.dir/WTSDataFactory.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSTools",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSTools/../WTSUtils/yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSTools.dir/WTSHotMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WTSTools/WTSHotMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSTools/WTSHotMgr.cpp",
+  "output": "WTSTools/CMakeFiles/WTSTools.dir/WTSHotMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WTSTools",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/WTSTools/../WTSUtils/yamlcpp -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WTSTools.dir/WTSLogger.cpp.o -c /data/yidan.wang/wondertrader/src/WTSTools/WTSLogger.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WTSTools/WTSLogger.cpp",
+  "output": "WTSTools/CMakeFiles/WTSTools.dir/WTSLogger.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/CTPLoader",
+  "command": "/usr/bin/c++ -DCTPLoader_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/CTPLoader.dir/CTPLoader.cpp.o -c /data/yidan.wang/wondertrader/src/CTPLoader/CTPLoader.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/CTPLoader/CTPLoader.cpp",
+  "output": "CTPLoader/CMakeFiles/CTPLoader.dir/CTPLoader.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/CTPLoader",
+  "command": "/usr/bin/c++ -DCTPLoader_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/CTPLoader.dir/TraderSpi.cpp.o -c /data/yidan.wang/wondertrader/src/CTPLoader/TraderSpi.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/CTPLoader/TraderSpi.cpp",
+  "output": "CTPLoader/CMakeFiles/CTPLoader.dir/TraderSpi.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/CTPOptLoader",
+  "command": "/usr/bin/c++ -DCTPOptLoader_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/CTPOptLoader.dir/CTPOptLoader.cpp.o -c /data/yidan.wang/wondertrader/src/CTPOptLoader/CTPOptLoader.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/CTPOptLoader/CTPOptLoader.cpp",
+  "output": "CTPOptLoader/CMakeFiles/CTPOptLoader.dir/CTPOptLoader.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/CTPOptLoader",
+  "command": "/usr/bin/c++ -DCTPOptLoader_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/CTPOptLoader.dir/TraderSpi.cpp.o -c /data/yidan.wang/wondertrader/src/CTPOptLoader/TraderSpi.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/CTPOptLoader/TraderSpi.cpp",
+  "output": "CTPOptLoader/CMakeFiles/CTPOptLoader.dir/TraderSpi.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/LoaderRunner",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/LoaderRunner.dir/LoaderRunner.cpp.o -c /data/yidan.wang/wondertrader/src/LoaderRunner/LoaderRunner.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/LoaderRunner/LoaderRunner.cpp",
+  "output": "LoaderRunner/CMakeFiles/LoaderRunner.dir/LoaderRunner.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/ParserCTP",
+  "command": "/usr/bin/c++ -DParserCTP_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/ParserCTP.dir/ParserCTP.cpp.o -c /data/yidan.wang/wondertrader/src/ParserCTP/ParserCTP.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/ParserCTP/ParserCTP.cpp",
+  "output": "ParserCTP/CMakeFiles/ParserCTP.dir/ParserCTP.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/ParserCTPMini",
+  "command": "/usr/bin/c++ -DParserCTPMini_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/ParserCTPMini.dir/ParserCTPMini.cpp.o -c /data/yidan.wang/wondertrader/src/ParserCTPMini/ParserCTPMini.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/ParserCTPMini/ParserCTPMini.cpp",
+  "output": "ParserCTPMini/CMakeFiles/ParserCTPMini.dir/ParserCTPMini.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/ParserCTPOpt",
+  "command": "/usr/bin/c++ -DParserCTPOpt_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/ParserCTPOpt.dir/ParserCTPOpt.cpp.o -c /data/yidan.wang/wondertrader/src/ParserCTPOpt/ParserCTPOpt.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/ParserCTPOpt/ParserCTPOpt.cpp",
+  "output": "ParserCTPOpt/CMakeFiles/ParserCTPOpt.dir/ParserCTPOpt.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/ParserFemas",
+  "command": "/usr/bin/c++ -DParserFemas_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/ParserFemas.dir/ParserFemas.cpp.o -c /data/yidan.wang/wondertrader/src/ParserFemas/ParserFemas.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/ParserFemas/ParserFemas.cpp",
+  "output": "ParserFemas/CMakeFiles/ParserFemas.dir/ParserFemas.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/ParserXTP",
+  "command": "/usr/bin/c++ -DParserXTP_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/ParserXTP.dir/ParserXTP.cpp.o -c /data/yidan.wang/wondertrader/src/ParserXTP/ParserXTP.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/ParserXTP/ParserXTP.cpp",
+  "output": "ParserXTP/CMakeFiles/ParserXTP.dir/ParserXTP.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/ParserShm",
+  "command": "/usr/bin/c++ -DParserShm_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/ParserShm.dir/ParserShm.cpp.o -c /data/yidan.wang/wondertrader/src/ParserShm/ParserShm.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/ParserShm/ParserShm.cpp",
+  "output": "ParserShm/CMakeFiles/ParserShm.dir/ParserShm.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/ParserXeleSkt",
+  "command": "/usr/bin/c++ -DParserXeleSkt_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/ParserXeleSkt.dir/ParserXeleSkt.cpp.o -c /data/yidan.wang/wondertrader/src/ParserXeleSkt/ParserXeleSkt.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/ParserXeleSkt/ParserXeleSkt.cpp",
+  "output": "ParserXeleSkt/CMakeFiles/ParserXeleSkt.dir/ParserXeleSkt.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDataStorage",
+  "command": "/usr/bin/c++ -DWtDataStorage_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDataStorage.dir/WtBtDtReader.cpp.o -c /data/yidan.wang/wondertrader/src/WtDataStorage/WtBtDtReader.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDataStorage/WtBtDtReader.cpp",
+  "output": "WtDataStorage/CMakeFiles/WtDataStorage.dir/WtBtDtReader.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDataStorage",
+  "command": "/usr/bin/c++ -DWtDataStorage_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDataStorage.dir/WtDataReader.cpp.o -c /data/yidan.wang/wondertrader/src/WtDataStorage/WtDataReader.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDataStorage/WtDataReader.cpp",
+  "output": "WtDataStorage/CMakeFiles/WtDataStorage.dir/WtDataReader.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDataStorage",
+  "command": "/usr/bin/c++ -DWtDataStorage_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDataStorage.dir/WtDataWriter.cpp.o -c /data/yidan.wang/wondertrader/src/WtDataStorage/WtDataWriter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDataStorage/WtDataWriter.cpp",
+  "output": "WtDataStorage/CMakeFiles/WtDataStorage.dir/WtDataWriter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDataStorage",
+  "command": "/usr/bin/c++ -DWtDataStorage_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDataStorage.dir/WtRdmDtReader.cpp.o -c /data/yidan.wang/wondertrader/src/WtDataStorage/WtRdmDtReader.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDataStorage/WtRdmDtReader.cpp",
+  "output": "WtDataStorage/CMakeFiles/WtDataStorage.dir/WtRdmDtReader.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDataStorageAD",
+  "command": "/usr/bin/c++ -DWtDataStorageAD_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDataStorageAD.dir/WtBtDtReaderAD.cpp.o -c /data/yidan.wang/wondertrader/src/WtDataStorageAD/WtBtDtReaderAD.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDataStorageAD/WtBtDtReaderAD.cpp",
+  "output": "WtDataStorageAD/CMakeFiles/WtDataStorageAD.dir/WtBtDtReaderAD.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDataStorageAD",
+  "command": "/usr/bin/c++ -DWtDataStorageAD_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDataStorageAD.dir/WtDataReaderAD.cpp.o -c /data/yidan.wang/wondertrader/src/WtDataStorageAD/WtDataReaderAD.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDataStorageAD/WtDataReaderAD.cpp",
+  "output": "WtDataStorageAD/CMakeFiles/WtDataStorageAD.dir/WtDataReaderAD.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDataStorageAD",
+  "command": "/usr/bin/c++ -DWtDataStorageAD_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDataStorageAD.dir/WtDataWriterAD.cpp.o -c /data/yidan.wang/wondertrader/src/WtDataStorageAD/WtDataWriterAD.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDataStorageAD/WtDataWriterAD.cpp",
+  "output": "WtDataStorageAD/CMakeFiles/WtDataStorageAD.dir/WtDataWriterAD.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDataStorageAD",
+  "command": "/usr/bin/c++ -DWtDataStorageAD_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDataStorageAD.dir/WtRdmDtReaderAD.cpp.o -c /data/yidan.wang/wondertrader/src/WtDataStorageAD/WtRdmDtReaderAD.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDataStorageAD/WtRdmDtReaderAD.cpp",
+  "output": "WtDataStorageAD/CMakeFiles/WtDataStorageAD.dir/WtRdmDtReaderAD.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtDtCore.dir/DataManager.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtCore/DataManager.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtCore/DataManager.cpp",
+  "output": "WtDtCore/CMakeFiles/WtDtCore.dir/DataManager.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtDtCore.dir/IndexFactory.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtCore/IndexFactory.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtCore/IndexFactory.cpp",
+  "output": "WtDtCore/CMakeFiles/WtDtCore.dir/IndexFactory.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtDtCore.dir/IndexWorker.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtCore/IndexWorker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtCore/IndexWorker.cpp",
+  "output": "WtDtCore/CMakeFiles/WtDtCore.dir/IndexWorker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtDtCore.dir/ParserAdapter.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtCore/ParserAdapter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtCore/ParserAdapter.cpp",
+  "output": "WtDtCore/CMakeFiles/WtDtCore.dir/ParserAdapter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtDtCore.dir/ShmCaster.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtCore/ShmCaster.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtCore/ShmCaster.cpp",
+  "output": "WtDtCore/CMakeFiles/WtDtCore.dir/ShmCaster.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtDtCore.dir/StateMonitor.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtCore/StateMonitor.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtCore/StateMonitor.cpp",
+  "output": "WtDtCore/CMakeFiles/WtDtCore.dir/StateMonitor.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtDtCore.dir/UDPCaster.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtCore/UDPCaster.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtCore/UDPCaster.cpp",
+  "output": "WtDtCore/CMakeFiles/WtDtCore.dir/UDPCaster.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtDtCore.dir/WtHelper.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtCore/WtHelper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtCore/WtHelper.cpp",
+  "output": "WtDtCore/CMakeFiles/WtDtCore.dir/WtHelper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtHelper",
+  "command": "/usr/bin/c++ -DWtDtHelper_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDtHelper.dir/WtDtHelper.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtHelper/WtDtHelper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtHelper/WtDtHelper.cpp",
+  "output": "WtDtHelper/CMakeFiles/WtDtHelper.dir/WtDtHelper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtPorter",
+  "command": "/usr/bin/c++ -DWtDtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDtPorter.dir/ExpDumper.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtPorter/ExpDumper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtPorter/ExpDumper.cpp",
+  "output": "WtDtPorter/CMakeFiles/WtDtPorter.dir/ExpDumper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtPorter",
+  "command": "/usr/bin/c++ -DWtDtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDtPorter.dir/ExpParser.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtPorter/ExpParser.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtPorter/ExpParser.cpp",
+  "output": "WtDtPorter/CMakeFiles/WtDtPorter.dir/ExpParser.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtPorter",
+  "command": "/usr/bin/c++ -DWtDtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDtPorter.dir/WtDtPorter.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtPorter/WtDtPorter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtPorter/WtDtPorter.cpp",
+  "output": "WtDtPorter/CMakeFiles/WtDtPorter.dir/WtDtPorter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtPorter",
+  "command": "/usr/bin/c++ -DWtDtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDtPorter.dir/WtDtRunner.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtPorter/WtDtRunner.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtPorter/WtDtRunner.cpp",
+  "output": "WtDtPorter/CMakeFiles/WtDtPorter.dir/WtDtRunner.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtServo",
+  "command": "/usr/bin/c++ -DWtDtServo_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDtServo.dir/ParserAdapter.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtServo/ParserAdapter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtServo/ParserAdapter.cpp",
+  "output": "WtDtServo/CMakeFiles/WtDtServo.dir/ParserAdapter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtServo",
+  "command": "/usr/bin/c++ -DWtDtServo_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDtServo.dir/WtDataManager.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtServo/WtDataManager.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtServo/WtDataManager.cpp",
+  "output": "WtDtServo/CMakeFiles/WtDtServo.dir/WtDataManager.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtServo",
+  "command": "/usr/bin/c++ -DWtDtServo_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDtServo.dir/WtDtRunner.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtServo/WtDtRunner.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtServo/WtDtRunner.cpp",
+  "output": "WtDtServo/CMakeFiles/WtDtServo.dir/WtDtRunner.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtServo",
+  "command": "/usr/bin/c++ -DWtDtServo_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDtServo.dir/WtDtServo.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtServo/WtDtServo.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtServo/WtDtServo.cpp",
+  "output": "WtDtServo/CMakeFiles/WtDtServo.dir/WtDtServo.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtDtServo",
+  "command": "/usr/bin/c++ -DWtDtServo_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtDtServo.dir/WtHelper.cpp.o -c /data/yidan.wang/wondertrader/src/WtDtServo/WtHelper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtDtServo/WtHelper.cpp",
+  "output": "WtDtServo/CMakeFiles/WtDtServo.dir/WtHelper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/QuoteFactory",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/QuoteFactory.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/QuoteFactory/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/QuoteFactory/main.cpp",
+  "output": "QuoteFactory/CMakeFiles/QuoteFactory.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtBtCore.dir/CtaMocker.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtCore/CtaMocker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtCore/CtaMocker.cpp",
+  "output": "WtBtCore/CMakeFiles/WtBtCore.dir/CtaMocker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtBtCore.dir/EventNotifier.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtCore/EventNotifier.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtCore/EventNotifier.cpp",
+  "output": "WtBtCore/CMakeFiles/WtBtCore.dir/EventNotifier.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtBtCore.dir/ExecMocker.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtCore/ExecMocker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtCore/ExecMocker.cpp",
+  "output": "WtBtCore/CMakeFiles/WtBtCore.dir/ExecMocker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtBtCore.dir/HftMocker.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtCore/HftMocker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtCore/HftMocker.cpp",
+  "output": "WtBtCore/CMakeFiles/WtBtCore.dir/HftMocker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtBtCore.dir/HisDataMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtCore/HisDataMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtCore/HisDataMgr.cpp",
+  "output": "WtBtCore/CMakeFiles/WtBtCore.dir/HisDataMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtBtCore.dir/HisDataReplayer.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtCore/HisDataReplayer.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtCore/HisDataReplayer.cpp",
+  "output": "WtBtCore/CMakeFiles/WtBtCore.dir/HisDataReplayer.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtBtCore.dir/MatchEngine.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtCore/MatchEngine.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtCore/MatchEngine.cpp",
+  "output": "WtBtCore/CMakeFiles/WtBtCore.dir/MatchEngine.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtBtCore.dir/SelMocker.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtCore/SelMocker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtCore/SelMocker.cpp",
+  "output": "WtBtCore/CMakeFiles/WtBtCore.dir/SelMocker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtBtCore.dir/UftMocker.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtCore/UftMocker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtCore/UftMocker.cpp",
+  "output": "WtBtCore/CMakeFiles/WtBtCore.dir/UftMocker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtBtCore.dir/WtHelper.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtCore/WtHelper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtCore/WtHelper.cpp",
+  "output": "WtBtCore/CMakeFiles/WtBtCore.dir/WtHelper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtPorter",
+  "command": "/usr/bin/c++ -DWtBtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtBtPorter.dir/ExpCtaMocker.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtPorter/ExpCtaMocker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtPorter/ExpCtaMocker.cpp",
+  "output": "WtBtPorter/CMakeFiles/WtBtPorter.dir/ExpCtaMocker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtPorter",
+  "command": "/usr/bin/c++ -DWtBtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtBtPorter.dir/ExpHftMocker.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtPorter/ExpHftMocker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtPorter/ExpHftMocker.cpp",
+  "output": "WtBtPorter/CMakeFiles/WtBtPorter.dir/ExpHftMocker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtPorter",
+  "command": "/usr/bin/c++ -DWtBtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtBtPorter.dir/ExpSelMocker.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtPorter/ExpSelMocker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtPorter/ExpSelMocker.cpp",
+  "output": "WtBtPorter/CMakeFiles/WtBtPorter.dir/ExpSelMocker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtPorter",
+  "command": "/usr/bin/c++ -DWtBtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtBtPorter.dir/WtBtPorter.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtPorter/WtBtPorter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtPorter/WtBtPorter.cpp",
+  "output": "WtBtPorter/CMakeFiles/WtBtPorter.dir/WtBtPorter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtPorter",
+  "command": "/usr/bin/c++ -DWtBtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtBtPorter.dir/WtBtRunner.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtPorter/WtBtRunner.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtPorter/WtBtRunner.cpp",
+  "output": "WtBtPorter/CMakeFiles/WtBtPorter.dir/WtBtRunner.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtBtRunner",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/WtBtRunner.dir/WtBtRunner.cpp.o -c /data/yidan.wang/wondertrader/src/WtBtRunner/WtBtRunner.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtBtRunner/WtBtRunner.cpp",
+  "output": "WtBtRunner/CMakeFiles/WtBtRunner.dir/WtBtRunner.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/ParserUDP",
+  "command": "/usr/bin/c++ -DParserUDP_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/ParserUDP.dir/ParserUDP.cpp.o -c /data/yidan.wang/wondertrader/src/ParserUDP/ParserUDP.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/ParserUDP/ParserUDP.cpp",
+  "output": "ParserUDP/CMakeFiles/ParserUDP.dir/ParserUDP.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderCTP",
+  "command": "/usr/bin/c++ -DTraderCTP_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderCTP.dir/TraderCTP.cpp.o -c /data/yidan.wang/wondertrader/src/TraderCTP/TraderCTP.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderCTP/TraderCTP.cpp",
+  "output": "TraderCTP/CMakeFiles/TraderCTP.dir/TraderCTP.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderCTPMini",
+  "command": "/usr/bin/c++ -DTraderCTPMini_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderCTPMini.dir/TraderCTPMini.cpp.o -c /data/yidan.wang/wondertrader/src/TraderCTPMini/TraderCTPMini.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderCTPMini/TraderCTPMini.cpp",
+  "output": "TraderCTPMini/CMakeFiles/TraderCTPMini.dir/TraderCTPMini.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderCTPOpt",
+  "command": "/usr/bin/c++ -DTraderCTPOpt_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderCTPOpt.dir/TraderCTPOpt.cpp.o -c /data/yidan.wang/wondertrader/src/TraderCTPOpt/TraderCTPOpt.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderCTPOpt/TraderCTPOpt.cpp",
+  "output": "TraderCTPOpt/CMakeFiles/TraderCTPOpt.dir/TraderCTPOpt.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderFemas",
+  "command": "/usr/bin/c++ -DTraderFemas_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderFemas.dir/TraderFemas.cpp.o -c /data/yidan.wang/wondertrader/src/TraderFemas/TraderFemas.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderFemas/TraderFemas.cpp",
+  "output": "TraderFemas/CMakeFiles/TraderFemas.dir/TraderFemas.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderMocker",
+  "command": "/usr/bin/c++ -DTraderMocker_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderMocker.dir/TraderMocker.cpp.o -c /data/yidan.wang/wondertrader/src/TraderMocker/TraderMocker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderMocker/TraderMocker.cpp",
+  "output": "TraderMocker/CMakeFiles/TraderMocker.dir/TraderMocker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderXTP",
+  "command": "/usr/bin/c++ -DTraderXTP_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderXTP.dir/TraderXTP.cpp.o -c /data/yidan.wang/wondertrader/src/TraderXTP/TraderXTP.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderXTP/TraderXTP.cpp",
+  "output": "TraderXTP/CMakeFiles/TraderXTP.dir/TraderXTP.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderYD",
+  "command": "/usr/bin/c++ -DTraderYD_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderYD.dir/TraderYD.cpp.o -c /data/yidan.wang/wondertrader/src/TraderYD/TraderYD.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderYD/TraderYD.cpp",
+  "output": "TraderYD/CMakeFiles/TraderYD.dir/TraderYD.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExeFact",
+  "command": "/usr/bin/c++ -DWtExeFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExeFact.dir/WtDiffMinImpactExeUnit.cpp.o -c /data/yidan.wang/wondertrader/src/WtExeFact/WtDiffMinImpactExeUnit.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExeFact/WtDiffMinImpactExeUnit.cpp",
+  "output": "WtExeFact/CMakeFiles/WtExeFact.dir/WtDiffMinImpactExeUnit.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExeFact",
+  "command": "/usr/bin/c++ -DWtExeFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExeFact.dir/WtExeFact.cpp.o -c /data/yidan.wang/wondertrader/src/WtExeFact/WtExeFact.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExeFact/WtExeFact.cpp",
+  "output": "WtExeFact/CMakeFiles/WtExeFact.dir/WtExeFact.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExeFact",
+  "command": "/usr/bin/c++ -DWtExeFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExeFact.dir/WtMinImpactExeUnit.cpp.o -c /data/yidan.wang/wondertrader/src/WtExeFact/WtMinImpactExeUnit.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExeFact/WtMinImpactExeUnit.cpp",
+  "output": "WtExeFact/CMakeFiles/WtExeFact.dir/WtMinImpactExeUnit.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExeFact",
+  "command": "/usr/bin/c++ -DWtExeFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExeFact.dir/WtOrdMon.cpp.o -c /data/yidan.wang/wondertrader/src/WtExeFact/WtOrdMon.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExeFact/WtOrdMon.cpp",
+  "output": "WtExeFact/CMakeFiles/WtExeFact.dir/WtOrdMon.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExeFact",
+  "command": "/usr/bin/c++ -DWtExeFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExeFact.dir/WtStockMinImpactExeUnit.cpp.o -c /data/yidan.wang/wondertrader/src/WtExeFact/WtStockMinImpactExeUnit.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExeFact/WtStockMinImpactExeUnit.cpp",
+  "output": "WtExeFact/CMakeFiles/WtExeFact.dir/WtStockMinImpactExeUnit.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExeFact",
+  "command": "/usr/bin/c++ -DWtExeFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExeFact.dir/WtStockVWapExeUnit.cpp.o -c /data/yidan.wang/wondertrader/src/WtExeFact/WtStockVWapExeUnit.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExeFact/WtStockVWapExeUnit.cpp",
+  "output": "WtExeFact/CMakeFiles/WtExeFact.dir/WtStockVWapExeUnit.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExeFact",
+  "command": "/usr/bin/c++ -DWtExeFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExeFact.dir/WtTWapExeUnit.cpp.o -c /data/yidan.wang/wondertrader/src/WtExeFact/WtTWapExeUnit.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExeFact/WtTWapExeUnit.cpp",
+  "output": "WtExeFact/CMakeFiles/WtExeFact.dir/WtTWapExeUnit.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExeFact",
+  "command": "/usr/bin/c++ -DWtExeFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExeFact.dir/WtVWapExeUnit.cpp.o -c /data/yidan.wang/wondertrader/src/WtExeFact/WtVWapExeUnit.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExeFact/WtVWapExeUnit.cpp",
+  "output": "WtExeFact/CMakeFiles/WtExeFact.dir/WtVWapExeUnit.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtRiskMonFact",
+  "command": "/usr/bin/c++ -DWtRiskMonFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtRiskMonFact.dir/WtRiskMonFact.cpp.o -c /data/yidan.wang/wondertrader/src/WtRiskMonFact/WtRiskMonFact.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtRiskMonFact/WtRiskMonFact.cpp",
+  "output": "WtRiskMonFact/CMakeFiles/WtRiskMonFact.dir/WtRiskMonFact.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtRiskMonFact",
+  "command": "/usr/bin/c++ -DWtRiskMonFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtRiskMonFact.dir/WtSimpRiskMon.cpp.o -c /data/yidan.wang/wondertrader/src/WtRiskMonFact/WtSimpRiskMon.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtRiskMonFact/WtSimpRiskMon.cpp",
+  "output": "WtRiskMonFact/CMakeFiles/WtRiskMonFact.dir/WtSimpRiskMon.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtMsgQue",
+  "command": "/usr/bin/c++ -DWtMsgQue_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtMsgQue.dir/MQClient.cpp.o -c /data/yidan.wang/wondertrader/src/WtMsgQue/MQClient.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtMsgQue/MQClient.cpp",
+  "output": "WtMsgQue/CMakeFiles/WtMsgQue.dir/MQClient.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtMsgQue",
+  "command": "/usr/bin/c++ -DWtMsgQue_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtMsgQue.dir/MQManager.cpp.o -c /data/yidan.wang/wondertrader/src/WtMsgQue/MQManager.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtMsgQue/MQManager.cpp",
+  "output": "WtMsgQue/CMakeFiles/WtMsgQue.dir/MQManager.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtMsgQue",
+  "command": "/usr/bin/c++ -DWtMsgQue_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtMsgQue.dir/MQServer.cpp.o -c /data/yidan.wang/wondertrader/src/WtMsgQue/MQServer.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtMsgQue/MQServer.cpp",
+  "output": "WtMsgQue/CMakeFiles/WtMsgQue.dir/MQServer.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtMsgQue",
+  "command": "/usr/bin/c++ -DWtMsgQue_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtMsgQue.dir/WtMsgQue.cpp.o -c /data/yidan.wang/wondertrader/src/WtMsgQue/WtMsgQue.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtMsgQue/WtMsgQue.cpp",
+  "output": "WtMsgQue/CMakeFiles/WtMsgQue.dir/WtMsgQue.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/ActionPolicyMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/ActionPolicyMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/ActionPolicyMgr.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/ActionPolicyMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/CtaStraBaseCtx.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/CtaStraBaseCtx.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/CtaStraBaseCtx.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/CtaStraBaseCtx.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/CtaStraContext.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/CtaStraContext.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/CtaStraContext.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/CtaStraContext.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/CtaStrategyMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/CtaStrategyMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/CtaStrategyMgr.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/CtaStrategyMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/EventNotifier.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/EventNotifier.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/EventNotifier.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/EventNotifier.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/HftStraBaseCtx.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/HftStraBaseCtx.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/HftStraBaseCtx.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/HftStraBaseCtx.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/HftStraContext.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/HftStraContext.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/HftStraContext.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/HftStraContext.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/HftStrategyMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/HftStrategyMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/HftStrategyMgr.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/HftStrategyMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/ParserAdapter.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/ParserAdapter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/ParserAdapter.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/ParserAdapter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/SelStraBaseCtx.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/SelStraBaseCtx.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/SelStraBaseCtx.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/SelStraBaseCtx.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/SelStraContext.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/SelStraContext.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/SelStraContext.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/SelStraContext.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/SelStrategyMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/SelStrategyMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/SelStrategyMgr.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/SelStrategyMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/TraderAdapter.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/TraderAdapter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/TraderAdapter.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/TraderAdapter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtArbiExecuter.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtArbiExecuter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtArbiExecuter.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtArbiExecuter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtCtaEngine.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtCtaEngine.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtCtaEngine.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtCtaEngine.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtCtaTicker.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtCtaTicker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtCtaTicker.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtCtaTicker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtDiffExecuter.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtDiffExecuter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtDiffExecuter.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtDiffExecuter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtDistExecuter.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtDistExecuter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtDistExecuter.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtDistExecuter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtDtMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtDtMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtDtMgr.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtDtMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtEngine.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtEngine.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtEngine.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtEngine.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtExecMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtExecMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtExecMgr.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtExecMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtExecuterFactory.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtExecuterFactory.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtExecuterFactory.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtExecuterFactory.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtFilterMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtFilterMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtFilterMgr.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtFilterMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtHelper.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtHelper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtHelper.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtHelper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtHftEngine.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtHftEngine.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtHftEngine.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtHftEngine.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtHftTicker.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtHftTicker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtHftTicker.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtHftTicker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtLocalExecuter.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtLocalExecuter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtLocalExecuter.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtLocalExecuter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtSelEngine.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtSelEngine.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtSelEngine.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtSelEngine.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtCore.dir/WtSelTicker.cpp.o -c /data/yidan.wang/wondertrader/src/WtCore/WtSelTicker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtCore/WtSelTicker.cpp",
+  "output": "WtCore/CMakeFiles/WtCore.dir/WtSelTicker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtPorter",
+  "command": "/usr/bin/c++ -DWtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtPorter.dir/ExpCtaContext.cpp.o -c /data/yidan.wang/wondertrader/src/WtPorter/ExpCtaContext.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtPorter/ExpCtaContext.cpp",
+  "output": "WtPorter/CMakeFiles/WtPorter.dir/ExpCtaContext.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtPorter",
+  "command": "/usr/bin/c++ -DWtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtPorter.dir/ExpExecuter.cpp.o -c /data/yidan.wang/wondertrader/src/WtPorter/ExpExecuter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtPorter/ExpExecuter.cpp",
+  "output": "WtPorter/CMakeFiles/WtPorter.dir/ExpExecuter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtPorter",
+  "command": "/usr/bin/c++ -DWtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtPorter.dir/ExpHftContext.cpp.o -c /data/yidan.wang/wondertrader/src/WtPorter/ExpHftContext.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtPorter/ExpHftContext.cpp",
+  "output": "WtPorter/CMakeFiles/WtPorter.dir/ExpHftContext.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtPorter",
+  "command": "/usr/bin/c++ -DWtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtPorter.dir/ExpParser.cpp.o -c /data/yidan.wang/wondertrader/src/WtPorter/ExpParser.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtPorter/ExpParser.cpp",
+  "output": "WtPorter/CMakeFiles/WtPorter.dir/ExpParser.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtPorter",
+  "command": "/usr/bin/c++ -DWtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtPorter.dir/ExpSelContext.cpp.o -c /data/yidan.wang/wondertrader/src/WtPorter/ExpSelContext.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtPorter/ExpSelContext.cpp",
+  "output": "WtPorter/CMakeFiles/WtPorter.dir/ExpSelContext.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtPorter",
+  "command": "/usr/bin/c++ -DWtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtPorter.dir/WtPorter.cpp.o -c /data/yidan.wang/wondertrader/src/WtPorter/WtPorter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtPorter/WtPorter.cpp",
+  "output": "WtPorter/CMakeFiles/WtPorter.dir/WtPorter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtPorter",
+  "command": "/usr/bin/c++ -DWtPorter_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtPorter.dir/WtRtRunner.cpp.o -c /data/yidan.wang/wondertrader/src/WtPorter/WtRtRunner.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtPorter/WtRtRunner.cpp",
+  "output": "WtPorter/CMakeFiles/WtPorter.dir/WtRtRunner.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExecMon",
+  "command": "/usr/bin/c++ -DWtExecMon_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExecMon.dir/WtExecPorter.cpp.o -c /data/yidan.wang/wondertrader/src/WtExecMon/WtExecPorter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExecMon/WtExecPorter.cpp",
+  "output": "WtExecMon/CMakeFiles/WtExecMon.dir/WtExecPorter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExecMon",
+  "command": "/usr/bin/c++ -DWtExecMon_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExecMon.dir/WtExecRunner.cpp.o -c /data/yidan.wang/wondertrader/src/WtExecMon/WtExecRunner.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExecMon/WtExecRunner.cpp",
+  "output": "WtExecMon/CMakeFiles/WtExecMon.dir/WtExecRunner.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtExecMon",
+  "command": "/usr/bin/c++ -DWtExecMon_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtExecMon.dir/WtSimpDataMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtExecMon/WtSimpDataMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtExecMon/WtSimpDataMgr.cpp",
+  "output": "WtExecMon/CMakeFiles/WtExecMon.dir/WtSimpDataMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtRunner",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/WtRunner.dir/WtRunner.cpp.o -c /data/yidan.wang/wondertrader/src/WtRunner/WtRunner.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtRunner/WtRunner.cpp",
+  "output": "WtRunner/CMakeFiles/WtRunner.dir/WtRunner.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtRunner",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/WtRunner.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/WtRunner/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtRunner/main.cpp",
+  "output": "WtRunner/CMakeFiles/WtRunner.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderDumper",
+  "command": "/usr/bin/c++ -DTraderDumper_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderDumper.dir/Dumper.cpp.o -c /data/yidan.wang/wondertrader/src/TraderDumper/Dumper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderDumper/Dumper.cpp",
+  "output": "TraderDumper/CMakeFiles/TraderDumper.dir/Dumper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderDumper",
+  "command": "/usr/bin/c++ -DTraderDumper_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderDumper.dir/TraderAdapter.cpp.o -c /data/yidan.wang/wondertrader/src/TraderDumper/TraderAdapter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderDumper/TraderAdapter.cpp",
+  "output": "TraderDumper/CMakeFiles/TraderDumper.dir/TraderAdapter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderDumper",
+  "command": "/usr/bin/c++ -DTraderDumper_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderDumper.dir/TraderDumper.cpp.o -c /data/yidan.wang/wondertrader/src/TraderDumper/TraderDumper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderDumper/TraderDumper.cpp",
+  "output": "TraderDumper/CMakeFiles/TraderDumper.dir/TraderDumper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TraderDumper",
+  "command": "/usr/bin/c++ -DTraderDumper_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/TraderDumper.dir/WtHelper.cpp.o -c /data/yidan.wang/wondertrader/src/TraderDumper/WtHelper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TraderDumper/WtHelper.cpp",
+  "output": "TraderDumper/CMakeFiles/TraderDumper.dir/WtHelper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtShareHelper",
+  "command": "/usr/bin/c++ -DWtShareHelper_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtShareHelper.dir/ShareBlocks.cpp.o -c /data/yidan.wang/wondertrader/src/WtShareHelper/ShareBlocks.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtShareHelper/ShareBlocks.cpp",
+  "output": "WtShareHelper/CMakeFiles/WtShareHelper.dir/ShareBlocks.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtShareHelper",
+  "command": "/usr/bin/c++ -DWtShareHelper_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtShareHelper.dir/WtShareHelper.cpp.o -c /data/yidan.wang/wondertrader/src/WtShareHelper/WtShareHelper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtShareHelper/WtShareHelper.cpp",
+  "output": "WtShareHelper/CMakeFiles/WtShareHelper.dir/WtShareHelper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/ActionPolicyMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/ActionPolicyMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/ActionPolicyMgr.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/ActionPolicyMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/EventNotifier.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/EventNotifier.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/EventNotifier.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/EventNotifier.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/ParserAdapter.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/ParserAdapter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/ParserAdapter.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/ParserAdapter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/ShareManager.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/ShareManager.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/ShareManager.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/ShareManager.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/TraderAdapter.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/TraderAdapter.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/TraderAdapter.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/TraderAdapter.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/UftStraContext.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/UftStraContext.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/UftStraContext.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/UftStraContext.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/UftStrategyMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/UftStrategyMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/UftStrategyMgr.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/UftStrategyMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/WtHelper.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/WtHelper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/WtHelper.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/WtHelper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/WtUftDtMgr.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/WtUftDtMgr.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/WtUftDtMgr.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/WtUftDtMgr.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/WtUftEngine.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/WtUftEngine.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/WtUftEngine.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/WtUftEngine.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftCore",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -fPIC -g -std=gnu++17 -o CMakeFiles/WtUftCore.dir/WtUftTicker.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftCore/WtUftTicker.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftCore/WtUftTicker.cpp",
+  "output": "WtUftCore/CMakeFiles/WtUftCore.dir/WtUftTicker.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftStraFact",
+  "command": "/usr/bin/c++ -DWtUftStraFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtUftStraFact.dir/WtUftStraDemo.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftStraFact/WtUftStraDemo.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftStraFact/WtUftStraDemo.cpp",
+  "output": "WtUftStraFact/CMakeFiles/WtUftStraFact.dir/WtUftStraDemo.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftStraFact",
+  "command": "/usr/bin/c++ -DWtUftStraFact_EXPORTS -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/WtUftStraFact.dir/WtUftStraFact.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftStraFact/WtUftStraFact.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftStraFact/WtUftStraFact.cpp",
+  "output": "WtUftStraFact/CMakeFiles/WtUftStraFact.dir/WtUftStraFact.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftRunner",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/WtUftRunner.dir/WtUftRunner.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftRunner/WtUftRunner.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftRunner/WtUftRunner.cpp",
+  "output": "WtUftRunner/CMakeFiles/WtUftRunner.dir/WtUftRunner.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtUftRunner",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/WtUftRunner.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/WtUftRunner/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtUftRunner/main.cpp",
+  "output": "WtUftRunner/CMakeFiles/WtUftRunner.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtLatencyHFT",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/WtLatencyHFT.dir/HftLatencyTool.cpp.o -c /data/yidan.wang/wondertrader/src/WtLatencyHFT/HftLatencyTool.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtLatencyHFT/HftLatencyTool.cpp",
+  "output": "WtLatencyHFT/CMakeFiles/WtLatencyHFT.dir/HftLatencyTool.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtLatencyHFT",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/WtLatencyHFT.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/WtLatencyHFT/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtLatencyHFT/main.cpp",
+  "output": "WtLatencyHFT/CMakeFiles/WtLatencyHFT.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtLatencyUFT",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/WtLatencyUFT.dir/UftLatencyTool.cpp.o -c /data/yidan.wang/wondertrader/src/WtLatencyUFT/UftLatencyTool.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtLatencyUFT/UftLatencyTool.cpp",
+  "output": "WtLatencyUFT/CMakeFiles/WtLatencyUFT.dir/UftLatencyTool.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/WtLatencyUFT",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/WtLatencyUFT.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/WtLatencyUFT/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/WtLatencyUFT/main.cpp",
+  "output": "WtLatencyUFT/CMakeFiles/WtLatencyUFT.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestBtPorter",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestBtPorter.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/TestBtPorter/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestBtPorter/main.cpp",
+  "output": "TestBtPorter/CMakeFiles/TestBtPorter.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestDtPorter",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestDtPorter.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/TestDtPorter/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestDtPorter/main.cpp",
+  "output": "TestDtPorter/CMakeFiles/TestDtPorter.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestExecPorter",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestExecPorter.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/TestExecPorter/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestExecPorter/main.cpp",
+  "output": "TestExecPorter/CMakeFiles/TestExecPorter.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestPorter",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestPorter.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/TestPorter/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestPorter/main.cpp",
+  "output": "TestPorter/CMakeFiles/TestPorter.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestTrader",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestTrader.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/TestTrader/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestTrader/main.cpp",
+  "output": "TestTrader/CMakeFiles/TestTrader.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestParser",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestParser.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/TestParser/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestParser/main.cpp",
+  "output": "TestParser/CMakeFiles/TestParser.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/gtest/gtest-death-test.cc.o -c /data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-death-test.cc",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-death-test.cc",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/gtest/gtest-death-test.cc.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/gtest/gtest-filepath.cc.o -c /data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-filepath.cc",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-filepath.cc",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/gtest/gtest-filepath.cc.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/gtest/gtest-port.cc.o -c /data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-port.cc",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-port.cc",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/gtest/gtest-port.cc.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/gtest/gtest-printers.cc.o -c /data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-printers.cc",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-printers.cc",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/gtest/gtest-printers.cc.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/gtest/gtest-test-part.cc.o -c /data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-test-part.cc",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-test-part.cc",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/gtest/gtest-test-part.cc.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/gtest/gtest-typed-test.cc.o -c /data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-typed-test.cc",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest-typed-test.cc",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/gtest/gtest-typed-test.cc.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/gtest/gtest.cc.o -c /data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest.cc",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/gtest/gtest.cc",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/gtest/gtest.cc.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/main.cpp.o -c /data/yidan.wang/wondertrader/src/TestUnits/main.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/main.cpp",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/main.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/test_codehelper.cpp.o -c /data/yidan.wang/wondertrader/src/TestUnits/test_codehelper.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/test_codehelper.cpp",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/test_codehelper.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/test_fastestmap.cpp.o -c /data/yidan.wang/wondertrader/src/TestUnits/test_fastestmap.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/test_fastestmap.cpp",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/test_fastestmap.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/test_fmt.cpp.o -c /data/yidan.wang/wondertrader/src/TestUnits/test_fmt.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/test_fmt.cpp",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/test_fmt.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/test_kvcache.cpp.o -c /data/yidan.wang/wondertrader/src/TestUnits/test_kvcache.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/test_kvcache.cpp",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/test_kvcache.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/test_lmdb.cpp.o -c /data/yidan.wang/wondertrader/src/TestUnits/test_lmdb.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/test_lmdb.cpp",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/test_lmdb.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/test_object_pool.cpp.o -c /data/yidan.wang/wondertrader/src/TestUnits/test_object_pool.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/test_object_pool.cpp",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/test_object_pool.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/test_session.cpp.o -c /data/yidan.wang/wondertrader/src/TestUnits/test_session.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/test_session.cpp",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/test_session.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/test_shm.cpp.o -c /data/yidan.wang/wondertrader/src/TestUnits/test_shm.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/test_shm.cpp",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/test_shm.cpp.o"
+},
+{
+  "directory": "/data/yidan.wang/wondertrader/src/build_debug/TestUnits",
+  "command": "/usr/bin/c++  -I/home/mydeps/include -I/data/yidan.wang/wondertrader/src/TestUnits/./gtest -Wno-error -Wno-nonnull -Wno-deprecated-declarations -g -std=gnu++17 -o CMakeFiles/TestUnits.dir/test_utils.cpp.o -c /data/yidan.wang/wondertrader/src/TestUnits/test_utils.cpp",
+  "file": "/data/yidan.wang/wondertrader/src/TestUnits/test_utils.cpp",
+  "output": "TestUnits/CMakeFiles/TestUnits.dir/test_utils.cpp.o"
+}
+]

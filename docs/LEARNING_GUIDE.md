@@ -65,9 +65,9 @@
 
 **学习重点**:
 - `Includes/` - 所有接口定义
-- `Includes/WTSMarcos.h` - 宏定义和基础类型
-- `Includes/IParserApi.h` - 行情解析器接口
-- `Includes/ITraderApi.h` - 交易接口定义
+- [`Includes/WTSMarcos.h`](../src/Includes/WTSMarcos.h) - 宏定义和基础类型
+- [`Includes/IParserApi.h`](../src/Includes/IParserApi.h) - 行情解析器接口
+- [`Includes/ITraderApi.h`](../src/Includes/ITraderApi.h) - 交易接口定义
 
 **为什么重要**: 这是整个框架的基础，定义了所有组件的接口规范。
 
@@ -79,8 +79,8 @@
 **位置**: `src/QuoteFactory/`
 
 **核心文件**:
-- `main.cpp` - 程序入口
-- `dtcfg.yaml` - 配置文件
+- [`main.cpp`](../src/QuoteFactory/main.cpp) - 程序入口
+- [`dtcfg.yaml`](../dist/QuoteFactory/dtcfg.yaml) - 配置文件
 
 **功能**:
 - 从各种行情源接收数据（通过Parser）
@@ -137,9 +137,9 @@
    - 订阅管理
 
 **学习顺序**:
-1. 先看 `WtEngine.h` - 理解引擎基类
-2. 再看 `WtCtaEngine.h` - 理解CTA引擎
-3. 然后看 `CtaStraContext.h` - 理解策略上下文接口
+1. 先看 [`WtEngine.h`](../src/WtCore/WtEngine.h) - 理解引擎基类
+2. 再看 [`WtCtaEngine.h`](../src/WtCore/WtCtaEngine.h) - 理解CTA引擎
+3. 然后看 [`CtaStraContext.h`](../src/WtCore/CtaStraContext.h) - 理解策略上下文接口
 4. 最后看实现文件 `.cpp`
 
 ---
@@ -162,7 +162,7 @@
    - 策略工厂实现
    - 策略创建和管理
 
-**策略接口** (`Includes/CtaStrategyDefs.h`):
+**策略接口** ([`Includes/CtaStrategyDefs.h`](../src/Includes/CtaStrategyDefs.h)):
 ```cpp
 class CtaStrategy {
     // 初始化
@@ -181,7 +181,7 @@ class CtaStrategy {
 };
 ```
 
-**策略上下文接口** (`Includes/ICtaStraCtx.h`):
+**策略上下文接口** ([`Includes/ICtaStraCtx.h`](../src/Includes/ICtaStraCtx.h)):
 ```cpp
 class ICtaStraCtx {
     // 下单接口
@@ -206,8 +206,8 @@ class ICtaStraCtx {
 **位置**: `src/WtRunner/`
 
 **核心文件**:
-- `WtRunner.h/cpp` - 主程序
-- `config.yaml` - 配置文件
+- [`WtRunner.h`](../src/WtRunner/WtRunner.h) / [`cpp`](../src/WtRunner/WtRunner.cpp) - 主程序
+- [`config.yaml`](../dist/WtRunner/config.yaml) - 配置文件
 
 **功能**:
 - 加载配置
@@ -215,7 +215,7 @@ class ICtaStraCtx {
 - 加载策略
 - 启动运行
 
-**关键流程** (`WtRunner.cpp`):
+**关键流程** ([`WtRunner.cpp`](../src/WtRunner/WtRunner.cpp)):
 ```cpp
 1. config() - 加载配置文件
 2. initTraders() - 初始化交易接口
@@ -335,25 +335,25 @@ K线闭合
 **步骤**:
 
 1. **阅读配置文件**
-   - `dist/WtRunner/config.yaml` - 理解配置结构
-   - `dist/QuoteFactory/dtcfg.yaml` - 理解数据配置
+   - [`dist/WtRunner/config.yaml`](../dist/WtRunner/config.yaml) - 理解配置结构
+   - [`dist/QuoteFactory/dtcfg.yaml`](../dist/QuoteFactory/dtcfg.yaml) - 理解数据配置
 
 2. **跟踪程序启动流程**
-   - `src/WtRunner/WtRunner.cpp::config()` - 配置加载
-   - `src/WtRunner/WtRunner.cpp::initEngine()` - 引擎初始化
-   - `src/WtCore/WtCtaEngine.cpp::init()` - CTA引擎初始化
+   - [`src/WtRunner/WtRunner.cpp::config()`](../src/WtRunner/WtRunner.cpp) - 配置加载
+   - [`src/WtRunner/WtRunner.cpp::initEngine()`](../src/WtRunner/WtRunner.cpp) - 引擎初始化
+   - [`src/WtCore/WtCtaEngine.cpp::init()`](../src/WtCore/WtCtaEngine.cpp) - CTA引擎初始化
 
 3. **理解数据流**
-   - `src/QuoteFactory/main.cpp` - QuoteFactory如何工作
-   - `src/ParserXTP/ParserXTP.cpp` - 如何接收行情
-   - `src/WtCore/ParserAdapter.cpp` - 如何转换数据
+   - [`src/QuoteFactory/main.cpp`](../src/QuoteFactory/main.cpp) - QuoteFactory如何工作
+   - [`src/ParserXTP/ParserXTP.cpp`](../src/ParserXTP/ParserXTP.cpp) - 如何接收行情
+   - [`src/WtCore/ParserAdapter.cpp`](../src/WtCore/ParserAdapter.cpp) - 如何转换数据
 
 **推荐阅读顺序**:
 ```
-1. src/WtRunner/WtRunner.cpp (主程序入口)
-2. src/WtCore/WtCtaEngine.h (引擎接口)
-3. src/WtCore/WtEngine.h (引擎基类)
-4. src/QuoteFactory/main.cpp (数据组件)
+1. [`src/WtRunner/WtRunner.cpp`](../src/WtRunner/WtRunner.cpp) (主程序入口)
+2. [`src/WtCore/WtCtaEngine.h`](../src/WtCore/WtCtaEngine.h) (引擎接口)
+3. [`src/WtCore/WtEngine.h`](../src/WtCore/WtEngine.h) (引擎基类)
+4. [`src/QuoteFactory/main.cpp`](../src/QuoteFactory/main.cpp) (数据组件)
 ```
 
 ---
@@ -365,12 +365,12 @@ K线闭合
 **步骤**:
 
 1. **深入理解策略接口**
-   - `src/Includes/CtaStrategyDefs.h` - 策略基类定义
-   - `src/Includes/ICtaStraCtx.h` - 策略上下文接口
+   - [`src/Includes/CtaStrategyDefs.h`](../src/Includes/CtaStrategyDefs.h) - 策略基类定义
+   - [`src/Includes/ICtaStraCtx.h`](../src/Includes/ICtaStraCtx.h) - 策略上下文接口
 
 2. **学习示例策略**
-   - `src/WtCtaStraFact/WtStraDualThrust.h` - 策略头文件
-   - `src/WtCtaStraFact/WtStraDualThrust.cpp` - 策略实现 ⭐⭐⭐
+   - [`src/WtCtaStraFact/WtStraDualThrust.h`](../src/WtCtaStraFact/WtStraDualThrust.h) - 策略头文件
+   - [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp) - 策略实现 ⭐⭐⭐
    
    **重点理解**:
    - 如何获取K线数据
@@ -379,8 +379,8 @@ K线闭合
    - 如何管理持仓
 
 3. **理解策略上下文**
-   - `src/WtCore/CtaStraContext.h` - 上下文接口
-   - `src/WtCore/CtaStraContext.cpp` - 上下文实现
+   - [`src/WtCore/CtaStraContext.h`](../src/WtCore/CtaStraContext.h) - 上下文接口
+   - [`src/WtCore/CtaStraContext.cpp`](../src/WtCore/CtaStraContext.cpp) - 上下文实现
 
 **实践任务**:
 - 修改DualThrust策略的参数
@@ -389,10 +389,10 @@ K线闭合
 
 **推荐阅读顺序**:
 ```
-1. src/Includes/CtaStrategyDefs.h (策略接口定义)
-2. src/Includes/ICtaStraCtx.h (上下文接口)
-3. src/WtCtaStraFact/WtStraDualThrust.cpp (示例策略) ⭐⭐⭐
-4. src/WtCore/CtaStraContext.cpp (上下文实现)
+1. [`src/Includes/CtaStrategyDefs.h`](../src/Includes/CtaStrategyDefs.h) (策略接口定义)
+2. [`src/Includes/ICtaStraCtx.h`](../src/Includes/ICtaStraCtx.h) (上下文接口)
+3. [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp) (示例策略) ⭐⭐⭐
+4. [`src/WtCore/CtaStraContext.cpp`](../src/WtCore/CtaStraContext.cpp) (上下文实现)
 ```
 
 ---
@@ -404,8 +404,8 @@ K线闭合
 **步骤**:
 
 1. **理解引擎基类**
-   - `src/WtCore/WtEngine.h` - 引擎基类
-   - `src/WtCore/WtEngine.cpp` - 引擎实现
+   - [`src/WtCore/WtEngine.h`](../src/WtCore/WtEngine.h) - 引擎基类
+   - [`src/WtCore/WtEngine.cpp`](../src/WtCore/WtEngine.cpp) - 引擎实现
    
    **重点理解**:
    - 持仓管理
@@ -414,8 +414,8 @@ K线闭合
    - 信号处理
 
 2. **理解CTA引擎**
-   - `src/WtCore/WtCtaEngine.h` - CTA引擎接口
-   - `src/WtCore/WtCtaEngine.cpp` - CTA引擎实现 ⭐⭐⭐
+   - [`src/WtCore/WtCtaEngine.h`](../src/WtCore/WtCtaEngine.h) - CTA引擎接口
+   - [`src/WtCore/WtCtaEngine.cpp`](../src/WtCore/WtCtaEngine.cpp) - CTA引擎实现 ⭐⭐⭐
    
    **重点理解**:
    - 事件驱动机制
@@ -423,16 +423,16 @@ K线闭合
    - 定时任务处理
 
 3. **理解数据管理**
-   - `src/WtCore/WtDtMgr.h` - 数据管理器
+   - [`src/WtCore/WtDtMgr.h`](../src/WtCore/WtDtMgr.h) - 数据管理器
    - K线合成逻辑
    - Tick数据切片
 
 **推荐阅读顺序**:
 ```
-1. src/WtCore/WtEngine.h (引擎基类)
-2. src/WtCore/WtCtaEngine.h (CTA引擎)
-3. src/WtCore/WtCtaEngine.cpp (CTA引擎实现) ⭐⭐⭐
-4. src/WtCore/CtaStraContext.cpp (策略上下文)
+1. [`src/WtCore/WtEngine.h`](../src/WtCore/WtEngine.h) (引擎基类)
+2. [`src/WtCore/WtCtaEngine.h`](../src/WtCore/WtCtaEngine.h) (CTA引擎)
+3. [`src/WtCore/WtCtaEngine.cpp`](../src/WtCore/WtCtaEngine.cpp) (CTA引擎实现) ⭐⭐⭐
+4. [`src/WtCore/CtaStraContext.cpp`](../src/WtCore/CtaStraContext.cpp) (策略上下文)
 ```
 
 ---
@@ -444,23 +444,23 @@ K线闭合
 **步骤**:
 
 1. **理解交易接口**
-   - `src/Includes/ITraderApi.h` - 交易接口定义
-   - `src/WtCore/TraderAdapter.h` - 交易适配器
-   - `src/TraderXTP/TraderXTP.cpp` - XTP交易实现
+   - [`src/Includes/ITraderApi.h`](../src/Includes/ITraderApi.h) - 交易接口定义
+   - [`src/WtCore/TraderAdapter.h`](../src/WtCore/TraderAdapter.h) - 交易适配器
+   - [`src/TraderXTP/TraderXTP.cpp`](../src/TraderXTP/TraderXTP.cpp) - XTP交易实现
 
 2. **理解行情接口**
-   - `src/Includes/IParserApi.h` - 行情接口定义
-   - `src/WtCore/ParserAdapter.h` - 行情适配器
-   - `src/ParserXTP/ParserXTP.cpp` - XTP行情实现
+   - [`src/Includes/IParserApi.h`](../src/Includes/IParserApi.h) - 行情接口定义
+   - [`src/WtCore/ParserAdapter.h`](../src/WtCore/ParserAdapter.h) - 行情适配器
+   - [`src/ParserXTP/ParserXTP.cpp`](../src/ParserXTP/ParserXTP.cpp) - XTP行情实现
 
 **推荐阅读顺序**:
 ```
-1. src/Includes/ITraderApi.h (交易接口定义)
-2. src/WtCore/TraderAdapter.h (交易适配器)
-3. src/TraderXTP/TraderXTP.cpp (XTP交易实现)
-4. src/Includes/IParserApi.h (行情接口定义)
-5. src/WtCore/ParserAdapter.h (行情适配器)
-6. src/ParserXTP/ParserXTP.cpp (XTP行情实现)
+1. [`src/Includes/ITraderApi.h`](../src/Includes/ITraderApi.h) (交易接口定义)
+2. [`src/WtCore/TraderAdapter.h`](../src/WtCore/TraderAdapter.h) (交易适配器)
+3. [`src/TraderXTP/TraderXTP.cpp`](../src/TraderXTP/TraderXTP.cpp) (XTP交易实现)
+4. [`src/Includes/IParserApi.h`](../src/Includes/IParserApi.h) (行情接口定义)
+5. [`src/WtCore/ParserAdapter.h`](../src/WtCore/ParserAdapter.h) (行情适配器)
+6. [`src/ParserXTP/ParserXTP.cpp`](../src/ParserXTP/ParserXTP.cpp) (XTP行情实现)
 ```
 
 ---
@@ -498,37 +498,37 @@ K线闭合
 #### ⭐⭐⭐ 必读（理解系统核心）
 
 1. **策略开发**
-   - `src/WtCtaStraFact/WtStraDualThrust.cpp` - 策略示例
-   - `src/Includes/CtaStrategyDefs.h` - 策略接口定义
-   - `src/Includes/ICtaStraCtx.h` - 策略上下文接口
+   - [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp) - 策略示例
+   - [`src/Includes/CtaStrategyDefs.h`](../src/Includes/CtaStrategyDefs.h) - 策略接口定义
+   - [`src/Includes/ICtaStraCtx.h`](../src/Includes/ICtaStraCtx.h) - 策略上下文接口
 
 2. **引擎核心**
-   - `src/WtCore/WtCtaEngine.h/cpp` - CTA引擎
-   - `src/WtCore/WtEngine.h/cpp` - 引擎基类
-   - `src/WtCore/CtaStraContext.h/cpp` - 策略上下文
+   - [`src/WtCore/WtCtaEngine.h`](../src/WtCore/WtCtaEngine.h) / [`cpp`](../src/WtCore/WtCtaEngine.cpp) - CTA引擎
+   - [`src/WtCore/WtEngine.h`](../src/WtCore/WtEngine.h) / [`cpp`](../src/WtCore/WtEngine.cpp) - 引擎基类
+   - [`src/WtCore/CtaStraContext.h`](../src/WtCore/CtaStraContext.h) / [`cpp`](../src/WtCore/CtaStraContext.cpp) - 策略上下文
 
 3. **程序入口**
-   - `src/WtRunner/WtRunner.cpp` - 主程序
-   - `src/WtRunner/WtRunner.h` - 主程序头文件
+   - [`src/WtRunner/WtRunner.cpp`](../src/WtRunner/WtRunner.cpp) - 主程序
+   - [`src/WtRunner/WtRunner.h`](../src/WtRunner/WtRunner.h) - 主程序头文件
 
 #### ⭐⭐ 重要（理解数据流）
 
 4. **数据管理**
-   - `src/WtCore/WtDtMgr.h` - 数据管理器
-   - `src/WtCore/ParserAdapter.h/cpp` - 行情适配器
-   - `src/WtCore/TraderAdapter.h/cpp` - 交易适配器
+   - [`src/WtCore/WtDtMgr.h`](../src/WtCore/WtDtMgr.h) - 数据管理器
+   - [`src/WtCore/ParserAdapter.h`](../src/WtCore/ParserAdapter.h) / [`cpp`](../src/WtCore/ParserAdapter.cpp) - 行情适配器
+   - [`src/WtCore/TraderAdapter.h`](../src/WtCore/TraderAdapter.h) / [`cpp`](../src/WtCore/TraderAdapter.cpp) - 交易适配器
 
 5. **数据组件**
-   - `src/QuoteFactory/main.cpp` - QuoteFactory入口
+   - [`src/QuoteFactory/main.cpp`](../src/QuoteFactory/main.cpp) - QuoteFactory入口
    - `src/WtDtCore/` - 数据核心
 
 #### ⭐ 参考（理解接口对接）
 
 6. **接口实现**
-   - `src/ParserXTP/ParserXTP.cpp` - XTP行情解析器
-   - `src/TraderXTP/TraderXTP.cpp` - XTP交易接口
-   - `src/Includes/IParserApi.h` - 行情接口定义
-   - `src/Includes/ITraderApi.h` - 交易接口定义
+   - [`src/ParserXTP/ParserXTP.cpp`](../src/ParserXTP/ParserXTP.cpp) - XTP行情解析器
+   - [`src/TraderXTP/TraderXTP.cpp`](../src/TraderXTP/TraderXTP.cpp) - XTP交易接口
+   - [`src/Includes/IParserApi.h`](../src/Includes/IParserApi.h) - 行情接口定义
+   - [`src/Includes/ITraderApi.h`](../src/Includes/ITraderApi.h) - 交易接口定义
 
 ---
 
@@ -578,7 +578,7 @@ cat QuoteFactory/dtcfg.yaml
 **目标**: 理解策略如何工作
 
 **步骤**:
-1. 找到 `src/WtCtaStraFact/WtStraDualThrust.cpp`
+1. 找到 [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp)
 2. 修改策略参数（k1, k2等）
 3. 重新编译
 4. 运行并观察效果
@@ -676,18 +676,18 @@ double pos = ctx->stra_get_position("SSE.600000");
 ## 学习资源
 
 ### 官方文档
-- `README.md` - 项目说明
-- `src/README.md` - 源码说明
+- [`README.md`](./README.md) - 项目说明
+- [`src/README.md`](../src/README.md) - 源码说明
 - `RUN.md` - 运行说明
 
 ### 代码示例
-- `src/WtCtaStraFact/WtStraDualThrust.cpp` - CTA策略示例
+- [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp) - CTA策略示例
 - `src/WtHftStraFact/` - HFT策略示例
 - `src/WtSelStraFact/` - SEL策略示例
 
 ### 配置文件
-- `dist/WtRunner/config.yaml` - 运行配置
-- `dist/QuoteFactory/dtcfg.yaml` - 数据配置
+- [`dist/WtRunner/config.yaml`](../dist/WtRunner/config.yaml) - 运行配置
+- [`dist/QuoteFactory/dtcfg.yaml`](../dist/QuoteFactory/dtcfg.yaml) - 数据配置
 
 ---
 
@@ -710,26 +710,26 @@ double pos = ctx->stra_get_position("SSE.600000");
 ### 关键文件优先级
 
 **第一优先级**（必须理解）:
-- `src/WtCtaStraFact/WtStraDualThrust.cpp` - 策略示例
-- `src/WtCore/WtCtaEngine.h/cpp` - CTA引擎
-- `src/Includes/ICtaStraCtx.h` - 策略上下文接口
+- [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp) - 策略示例
+- [`src/WtCore/WtCtaEngine.h`](../src/WtCore/WtCtaEngine.h) / [`cpp`](../src/WtCore/WtCtaEngine.cpp) - CTA引擎
+- [`src/Includes/ICtaStraCtx.h`](../src/Includes/ICtaStraCtx.h) - 策略上下文接口
 
 **第二优先级**（重要理解）:
-- `src/WtRunner/WtRunner.cpp` - 主程序
-- `src/WtCore/WtEngine.h/cpp` - 引擎基类
-- `src/WtCore/CtaStraContext.cpp` - 策略上下文实现
+- [`src/WtRunner/WtRunner.cpp`](../src/WtRunner/WtRunner.cpp) - 主程序
+- [`src/WtCore/WtEngine.h`](../src/WtCore/WtEngine.h) / [`cpp`](../src/WtCore/WtEngine.cpp) - 引擎基类
+- [`src/WtCore/CtaStraContext.cpp`](../src/WtCore/CtaStraContext.cpp) - 策略上下文实现
 
 **第三优先级**（参考理解）:
-- `src/ParserXTP/ParserXTP.cpp` - 行情解析器
-- `src/TraderXTP/TraderXTP.cpp` - 交易接口
-- `src/QuoteFactory/main.cpp` - 数据组件
+- [`src/ParserXTP/ParserXTP.cpp`](../src/ParserXTP/ParserXTP.cpp) - 行情解析器
+- [`src/TraderXTP/TraderXTP.cpp`](../src/TraderXTP/TraderXTP.cpp) - 交易接口
+- [`src/QuoteFactory/main.cpp`](../src/QuoteFactory/main.cpp) - 数据组件
 
 ---
 
 ## 下一步行动
 
-1. ✅ **立即开始**: 阅读 `src/WtCtaStraFact/WtStraDualThrust.cpp`
-2. ✅ **理解接口**: 阅读 `src/Includes/ICtaStraCtx.h`
+1. ✅ **立即开始**: 阅读 [`src/WtCtaStraFact/WtStraDualThrust.cpp`](../src/WtCtaStraFact/WtStraDualThrust.cpp)
+2. ✅ **理解接口**: 阅读 [`src/Includes/ICtaStraCtx.h`](../src/Includes/ICtaStraCtx.h)
 3. ✅ **跟踪流程**: 在关键位置添加日志
 4. ✅ **实践开发**: 实现一个简单策略
 
