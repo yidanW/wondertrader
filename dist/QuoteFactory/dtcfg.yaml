@@ -1,6 +1,10 @@
 basefiles:
-    commodity: ../common/commodities.json
-    contract: ../common/contracts.json
+    commodity: 
+    -   ../common/stk_comms.json   #股票品种列表
+    -   ../common/commodities.json   #期货品种列表
+    contract: 
+    -   ../common/stocks.json      #股票合约列表
+    -   ../common/contracts.json      #期货合约列表
     holiday: ../common/holidays.json
     session: ../common/sessions.json
     utf-8: true

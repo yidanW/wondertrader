@@ -1549,6 +1549,7 @@ WTSKlineSlice* WtDataReader::readKlineSlice(const char* stdCode, WTSKlinePeriod 
 	bool bHasHisData = false;
 	if (it == _bars_cache.end())
 	{
+		pipe_reader_log(_sink, LL_DEBUG, "readKlineSlice: {} not in cache, loading...", key);
 		/*
 		 *	By Wesley @ 2021.12.20
 		 *	先从extloader加载最终的K线数据（如果是复权）
@@ -1562,6 +1563,7 @@ WTSKlineSlice* WtDataReader::readKlineSlice(const char* stdCode, WTSKlinePeriod 
 	else
 	{
 		bHasHisData = true;
+		pipe_reader_log(_sink, LL_DEBUG, "readKlineSlice: {} already in cache", key);
 	}
 
 	uint32_t curDate, curTime;
@@ -1999,16 +2001,22 @@ void WtDataReader::onMinuteEnd(uint32_t uDate, uint32_t uTime, uint32_t endTDate
 	if (nowTime <= _last_time)
 		return;
 
+	pipe_reader_log(_sink, LL_DEBUG, "onMinuteEnd: _bars_cache size = {}", _bars_cache.size());
 	for (auto it = _bars_cache.begin(); it != _bars_cache.end(); it++)
 	{
 		BarsList& barsList = (BarsList&)it->second;
+		pipe_reader_log(_sink, LL_DEBUG, "onMinuteEnd: checking {} period={} raw_code={}", barsList._code, barsList._period, barsList._raw_code);
 		if (barsList._period != KP_DAY)
 		{
 			if (!barsList._raw_code.empty())
 			{
 				RTKlineBlockPair* kBlk = getRTKilneBlock(barsList._exchg.c_str(), barsList._raw_code.c_str(), barsList._period);
 				if (kBlk == NULL)
+				{
+					pipe_reader_log(_sink, LL_DEBUG, "onMinuteEnd: getRTKilneBlock returned NULL for {}.{}", barsList._exchg, barsList._raw_code);
 					continue;
+				}
+				pipe_reader_log(_sink, LL_DEBUG, "onMinuteEnd: getRTKilneBlock success, block size = {}", kBlk->_block->_size);
 
 				//确定上一次的读取过的实时K线条数
 				uint32_t preCnt = 0;

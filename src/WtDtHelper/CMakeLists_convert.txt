@@ -1,0 +1,6 @@
+# CSV转.dsb转换工具的CMakeLists
+# 添加到现有的CMakeLists.txt中
+
+ADD_EXECUTABLE(convert_csv convert_csv.cpp)
+TARGET_LINK_LIBRARIES(convert_csv WtDtHelper ${LIBS})
+

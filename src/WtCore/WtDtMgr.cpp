@@ -92,7 +92,11 @@ bool WtDtMgr::init(WTSVariant* cfg, WtEngine* engine, bool bForceCache /* = fals
 
 	_align_by_section = cfg->getBoolean("align_by_section");
 
-	_force_cache = bForceCache;
+	// 如果配置文件中指定了force_cache，优先使用配置文件的值
+	if (cfg->has("force_cache"))
+		_force_cache = cfg->getBoolean("force_cache");
+	else
+		_force_cache = bForceCache;
 
 	WTSLogger::info("Resampled bars will be aligned by section: {}", _align_by_section?"yes":" no");
 
@@ -415,6 +419,12 @@ WTSKlineSlice* WtDtMgr::get_kline_slice(const char* stdCode, WTSKlinePeriod peri
 
 	if (_bars_cache == NULL)
 		_bars_cache = DataCacheMap::create();
+
+	// 如果强制缓存且为基础周期，也需要添加到_subed_basic_bars，以便on_bar能够处理
+	if (times == 1 && _force_cache)
+	{
+		_subed_basic_bars.insert(key);
+	}
 
 	fmtutil::format_to(key, "{}-{}-{}", stdCode, (uint32_t)period, times);
 

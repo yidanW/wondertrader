@@ -274,6 +274,11 @@ public:
 
 	inline bool asBoolean() const
 	{
+		if (_type == VT_Boolean)
+		{
+			return _value._string && (wt_stricmp(_value._string->c_str(), "true") == 0 || wt_stricmp(_value._string->c_str(), "yes") == 0);
+		}
+		
 		if (_value._string)
 		{
 			return wt_stricmp(_value._string->c_str(), "true") == 0 || wt_stricmp(_value._string->c_str(), "yes") == 0;

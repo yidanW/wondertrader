@@ -422,7 +422,8 @@ bool WtRunner::initDataMgr()
 	if (cfg == NULL)
 		return false;
 
-	_data_mgr.init(cfg, _engine);
+	bool bForceCache = cfg->getBoolean("force_cache");
+	_data_mgr.init(cfg, _engine, bForceCache);
 	WTSLogger::info("Data manager initialized");
 
 	return true;
