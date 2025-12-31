@@ -1,12 +1,12 @@
 {
-    "SD0930":{
-        "name":"¹ÉÆ±°×ÅÌ0930",
+    "SD0930": {
+        "name": "è‚¡ç¥¨äº¤æ˜“0930",
         "offset": 0,
-        "auction":{
+        "auction": {
             "from": 929,
             "to": 930
         },
-        "sections":[
+        "sections": [
             {
                 "from": 930,
                 "to": 1130
@@ -17,14 +17,14 @@
             }
         ]
     },
-    "FD0915":{
-        "name":"ÆÚ»õ°×ÅÌ0915",
+    "FD0915": {
+        "name": "æœŸè´§äº¤æ˜“0915",
         "offset": 0,
-        "auction":{
+        "auction": {
             "from": 929,
             "to": 930
         },
-        "sections":[
+        "sections": [
             {
                 "from": 930,
                 "to": 1130
@@ -35,14 +35,14 @@
             }
         ]
     },
-    "FN0100":{
-        "name":"ÆÚ»õÒ¹ÅÌ0100",
+    "FN0100": {
+        "name": "æœŸè´§å¤œç›˜0100",
         "offset": 300,
-        "auction":{
+        "auction": {
             "from": 2059,
             "to": 2100
         },
-        "sections":[
+        "sections": [
             {
                 "from": 2100,
                 "to": 100
@@ -61,14 +61,14 @@
             }
         ]
     },
-    "FN0230":{
-        "name":"ÆÚ»õÒ¹ÅÌ0230",
+    "FN0230": {
+        "name": "æœŸè´§å¤œç›˜0230",
         "offset": 300,
-        "auction":{
+        "auction": {
             "from": 2059,
             "to": 2100
         },
-        "sections":[
+        "sections": [
             {
                 "from": 2100,
                 "to": 230
@@ -87,14 +87,14 @@
             }
         ]
     },
-    "FN2300":{
-        "name":"ÆÚ»õÒ¹ÅÌ2300",
+    "FN2300": {
+        "name": "æœŸè´§å¤œç›˜2300",
         "offset": 300,
-        "auction":{
+        "auction": {
             "from": 2059,
             "to": 2100
         },
-        "sections":[
+        "sections": [
             {
                 "from": 2100,
                 "to": 2300
@@ -113,14 +113,14 @@
             }
         ]
     },
-    "FD0900":{
-        "name":"ÆÚ»õ°×ÅÌ0900",
+    "FD0900": {
+        "name": "æœŸè´§äº¤æ˜“0900",
         "offset": 0,
-        "auction":{
+        "auction": {
             "from": 859,
             "to": 900
         },
-        "sections":[
+        "sections": [
             {
                 "from": 900,
                 "to": 1015
@@ -135,14 +135,14 @@
             }
         ]
     },
-    "FN2330":{
-        "name":"ÆÚ»õÒ¹ÅÌ2330",
+    "FN2330": {
+        "name": "æœŸè´§å¤œç›˜2330",
         "offset": 300,
-        "auction":{
+        "auction": {
             "from": 2059,
             "to": 2100
         },
-        "sections":[
+        "sections": [
             {
                 "from": 2100,
                 "to": 2330
@@ -161,14 +161,14 @@
             }
         ]
     },
-    "TRADING":{
-        "name":"È«ÊÐ³¡»Ø²â",
+    "TRADING": {
+        "name": "å…¨å¤©äº¤æ˜“",
         "offset": 300,
-        "auction":{
+        "auction": {
             "from": 2059,
             "to": 2100
         },
-        "sections":[
+        "sections": [
             {
                 "from": 2100,
                 "to": 230
