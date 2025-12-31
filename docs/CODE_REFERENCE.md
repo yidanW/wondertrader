@@ -147,6 +147,152 @@ TraderAdapter::doOrder()
 
 ---
 
+### 5. QuoteFactory 主程序
+
+**文件**: [`src/QuoteFactory/main.cpp`](../src/QuoteFactory/main.cpp)
+
+**功能概述**:
+QuoteFactory 是行情数据接收和存储的核心组件，负责从各种行情源接收数据、解析、存储并广播给 WtRunner。
+
+**关键函数**:
+- `main()` - 程序入口（第261行）
+- `initialize()` - 初始化流程（第96行）
+- `initDataMgr()` - 初始化数据管理器（第64行）
+- `initParsers()` - 初始化行情解析器（第70行）
+- `getBinDir()` - 获取可执行文件目录（第50行）
+
+**初始化流程**:
+```
+main()
+  ├── 加载日志配置 (logcfgdt.yaml)
+  ├── 安装信号处理钩子
+  └── initialize()
+      ├── 加载基础数据
+      │   ├── 交易时间模板 (sessions)
+      │   ├── 品种信息 (commodity)
+      │   ├── 合约信息 (contract)
+      │   ├── 节假日信息 (holiday)
+      │   └── 主力合约规则 (hot/second/rules)
+      ├── 初始化广播器
+      │   ├── ShmCaster (共享内存广播)
+      │   └── UDPCaster (UDP广播)
+      ├── 初始化状态机 (非全天候模式)
+      ├── 初始化数据管理器 (DataManager)
+      ├── 初始化指数工厂 (IndexFactory, 可选)
+      └── 初始化解析器 (ParserAdapter)
+          └── g_parsers.run() - 启动所有解析器
+```
+
+**核心全局对象**:
+- `g_baseDataMgr` - 基础数据管理器（交易时间、合约信息等）
+- `g_dataMgr` - 数据管理器（行情数据存储和管理）
+- `g_parsers` - 解析器管理器（管理所有行情解析器）
+- `g_stateMon` - 状态监控器（交易时间状态管理）
+- `g_udpCaster` - UDP广播器（向WtRunner广播行情）
+- `g_shmCaster` - 共享内存广播器（高性能本地广播）
+- `g_hotMgr` - 主力合约管理器
+- `g_idxFactory` - 指数工厂（计算自定义指数）
+
+**运行模式**:
+- **标准模式**: 使用状态机管理交易时间，只在交易时间内处理行情
+- **全天候模式** (`allday: true`): 不使用状态机，24小时处理行情数据
+
+**命令行参数**:
+- `-c, --config`: 配置文件路径（默认: `./dtcfg.yaml`）
+- `-l, --logcfg`: 日志配置文件路径（默认: `./logcfgdt.yaml`）
+- `-h, --help`: 显示帮助信息
+
+**配置文件结构**:
+```yaml
+basefiles:
+  session: sessions.json      # 交易时间模板
+  commodity: commodities.json # 品种信息
+  contract: contracts.json    # 合约信息
+  holiday: holidays.json      # 节假日信息
+  hot: hot.json              # 主力合约规则
+  second: second.json        # 次主力合约规则
+  rules:                     # 自定义规则
+    custom: custom_rules.json
+
+shmcaster:                   # 共享内存广播配置（可选）
+  ...
+
+broadcaster:                 # UDP广播配置（可选）
+  ...
+
+statemonitor: statemon.yaml  # 状态机配置（标准模式）
+writer:                      # 数据写入配置
+  ...
+
+index: index.yaml            # 指数配置（可选）
+parsers: mdparsers.yaml      # 解析器配置（或直接配置数组）
+allday: false                # 是否全天候模式
+```
+
+**关键代码位置**:
+- 配置加载: 
+```96:105:src/QuoteFactory/main.cpp
+void initialize(const std::string& filename)
+{
+	WtHelper::set_module_dir(getBinDir());
+
+	WTSVariant* config = WTSCfgLoader::load_from_file(filename.c_str());
+	if(config == NULL)
+	{
+		WTSLogger::error("Loading config file {} failed", filename);
+		return;
+	}
+```
+- 解析器初始化: 
+```70:94:src/QuoteFactory/main.cpp
+void initParsers(WTSVariant* cfg)
+{
+	for (uint32_t idx = 0; idx < cfg->size(); idx++)
+	{
+		WTSVariant* cfgItem = cfg->get(idx);
+		if (!cfgItem->getBoolean("active"))
+			continue;
+
+		const char* id = cfgItem->getCString("id");
+		// By Wesley @ 2021.12.14
+		// 如果id为空，则生成自动id
+		std::string realid = id;
+		if (realid.empty())
+		{
+			static uint32_t auto_parserid = 1000;
+			realid = StrUtil::printf("auto_parser_%u", auto_parserid++);
+		}
+
+		ParserAdapterPtr adapter(new ParserAdapter(&g_baseDataMgr, &g_dataMgr, &g_idxFactory));
+		adapter->init(realid.c_str(), cfgItem);
+		g_parsers.addAdapter(realid.c_str(), adapter);
+	}
+
+	WTSLogger::info("{} market data parsers loaded in total", g_parsers.size());
+}
+```
+- 主循环: 
+```321:324:src/QuoteFactory/main.cpp
+	while (!bExit)
+	{
+		std::this_thread::sleep_for(std::chrono::milliseconds(10));
+	}
+```
+
+**数据流向**:
+```
+行情源 (XTP/CTP等)
+  ↓
+ParserAdapter (解析器)
+  ↓
+DataManager (数据管理)
+  ├── 存储到本地文件
+  ├── UDPCaster → WtRunner (UDP广播)
+  └── ShmCaster → WtRunner (共享内存)
+```
+
+---
+
 ## 📖 接口定义位置
 
 ### 策略接口
